@@ -1,8 +1,10 @@
+import logo from "../assets/logo.png";
+
 function Navbar() {
   return (
     <nav className="flex justify-between items-center px-10 py-6 bg-[#0369a1] text-white">
       <div className="flex items-center gap-2 text-2xl font-bold">
-        <img src="src/assets/logo.png" alt="logo" className="w-6 h-6"/>
+        <img src={logo} alt="logo" className="w-6 h-6"/>
         <p className="hidden sm:block">updrafts</p>
       </div>
 
